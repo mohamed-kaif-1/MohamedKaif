@@ -7,5 +7,8 @@
   "scripts": {
     "start": "node server.mjs",
     "dev": "node server.mjs"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }
