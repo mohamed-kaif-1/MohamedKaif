@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img"><title>Code Garden — interface concept</title><desc>Write Java. Solve challenges. Grow your skills.. Illustrative interface with sample data.</desc>
+<rect x="0" y="0" width="1200" height="900" rx="0" fill="#eaf1c6"/>
+<text x="48" y="82" fill="#273c23" font-family="Arial, sans-serif" font-size="58" font-weight="700" text-anchor="start">Code Garden</text>
+<text x="50" y="126" fill="#748365" font-family="Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Write Java. Solve challenges. Grow your skills.</text>
+<text x="50" y="866" fill="#748365" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">INTERFACE CONCEPT  /  SAMPLE DATA</text>
+<text x="1148" y="866" fill="#748365" font-family="Arial, sans-serif" font-size="16" font-weight="500" text-anchor="end">2026</text>
+<rect x="48" y="180" width="1104" height="632" rx="16" fill="#fcfff1" stroke="#dbe5c3"/>
+<text x="78" y="221" fill="#273c23" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">CG / Learning studio</text>
+<text x="1118" y="220" fill="#748365" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="end">JDK 21     JavaFX     JShell</text>
+<path d="M48 246L1152 246" stroke="#dbe5c3" stroke-width="1" fill="none"/>
+<rect x="69" y="264" width="229" height="526" rx="10" fill="#f0f5db"/>
+<text x="90" y="306" fill="#748365" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start">JAVA PATH</text>
+<text x="96" y="351" fill="#273c23" font-family="Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start">01  Variables</text>
+<text x="96" y="376" fill="#748365" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Complete</text>
+<text x="96" y="439" fill="#273c23" font-family="Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start">02  Conditions</text>
+<text x="96" y="464" fill="#748365" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Complete</text>
+<rect x="80" y="497" width="207" height="76" rx="8" fill="#d9e8b0"/>
+<text x="96" y="527" fill="#273c23" font-family="Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start">03  Loops</text>
+<text x="96" y="552" fill="#748365" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">In progress</text>
+<text x="96" y="615" fill="#273c23" font-family="Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start">04  Methods</text>
+<text x="96" y="640" fill="#748365" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Up next</text>
+<text x="94" y="737" fill="#547e36" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">240 coins</text>
+<text x="94" y="766" fill="#748365" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Earned through practice</text>
+<text x="325" y="303" fill="#273c23" font-family="Arial, sans-serif" font-size="25" font-weight="600" text-anchor="start">Challenge 03: Sum an array</text>
+<text x="325" y="337" fill="#748365" font-family="Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Use a loop to add each value to the total.</text>
+<rect x="323" y="364" width="795" height="286" rx="10" fill="#213426"/>
+<text x="344" y="405" fill="#778f7c" font-family="monospace" font-size="16" font-weight="400" text-anchor="start">1</text>
+<text x="382" y="405" fill="#cce8ac" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">int[] values = {2, 4, 6, 8};</text>
+<text x="344" y="437" fill="#778f7c" font-family="monospace" font-size="16" font-weight="400" text-anchor="start">2</text>
+<text x="382" y="437" fill="#cce8ac" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">int total = 0;</text>
+<text x="344" y="469" fill="#778f7c" font-family="monospace" font-size="16" font-weight="400" text-anchor="start">3</text>
+<text x="382" y="469" fill="#f0f5e9" font-family="monospace" font-size="21" font-weight="400" text-anchor="start"></text>
+<text x="344" y="501" fill="#778f7c" font-family="monospace" font-size="16" font-weight="400" text-anchor="start">4</text>
+<text x="382" y="501" fill="#cce8ac" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">for (int value : values) {</text>
+<text x="344" y="533" fill="#778f7c" font-family="monospace" font-size="16" font-weight="400" text-anchor="start">5</text>
+<text x="382" y="533" fill="#f0f5e9" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">    total += value;</text>
+<text x="344" y="565" fill="#778f7c" font-family="monospace" font-size="16" font-weight="400" text-anchor="start">6</text>
+<text x="382" y="565" fill="#f0f5e9" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">}</text>
+<text x="344" y="597" fill="#778f7c" font-family="monospace" font-size="16" font-weight="400" text-anchor="start">7</text>
+<text x="382" y="597" fill="#f0f5e9" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">System.out.println(total);</text>
+<rect x="323" y="668" width="795" height="112" rx="10" fill="#e5f0ce"/>
+<text x="345" y="702" fill="#748365" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">JSHELL OUTPUT</text>
+<text x="345" y="750" fill="#273c23" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="start">20</text>
+<rect x="852" y="703" width="235" height="32" rx="16" fill="#527c39"/>
+<text x="969.5" y="725" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Challenge complete</text>
+</svg>

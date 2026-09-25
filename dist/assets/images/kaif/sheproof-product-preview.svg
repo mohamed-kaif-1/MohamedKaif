@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img"><title>SheProof — interface concept</title><desc>Document integrity, verified on-chain.. Illustrative interface with sample data.</desc>
+<rect x="0" y="0" width="1200" height="900" rx="0" fill="#f4eee9"/>
+<text x="48" y="82" fill="#261d20" font-family="Arial, sans-serif" font-size="58" font-weight="700" text-anchor="start">SheProof</text>
+<text x="50" y="126" fill="#827477" font-family="Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Document integrity, verified on-chain.</text>
+<text x="50" y="866" fill="#827477" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">INTERFACE CONCEPT  /  SAMPLE DATA</text>
+<text x="1148" y="866" fill="#827477" font-family="Arial, sans-serif" font-size="16" font-weight="500" text-anchor="end">2026</text>
+<rect x="48" y="180" width="1104" height="632" rx="16" fill="#fffdfb" stroke="#e6dce0"/>
+<text x="78" y="221" fill="#261d20" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">SP  /  Verification desk</text>
+<text x="1118" y="220" fill="#827477" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="end">Documents     Activity     Wallet</text>
+<path d="M48 246L1152 246" stroke="#e6dce0" stroke-width="1" fill="none"/>
+<text x="84" y="294" fill="#261d20" font-family="Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Check a document</text>
+<text x="84" y="326" fill="#827477" font-family="Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">Compare a file against its registered SHA-256 hash.</text>
+<rect x="84" y="358" width="544" height="196" rx="12" fill="#f8f3f3" stroke="#dfcbd1"/>
+<rect x="108" y="384" width="52" height="64" rx="7" fill="#eadbe0"/>
+<text x="134" y="424" fill="#ad3452" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">PDF</text>
+<text x="178" y="407" fill="#261d20" font-family="Arial, sans-serif" font-size="23" font-weight="600" text-anchor="start">project-proposal.pdf</text>
+<text x="178" y="441" fill="#827477" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Selected document  /  248 KB</text>
+<rect x="108" y="488" width="168" height="32" rx="16" fill="#ad3452"/>
+<text x="192.0" y="510" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Verify document</text>
+<text x="84" y="601" fill="#827477" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">DOCUMENT FINGERPRINT</text>
+<rect x="84" y="620" width="544" height="68" rx="8" fill="#f8f3f3"/>
+<text x="104" y="649" fill="#261d20" font-family="monospace" font-size="22" font-weight="400" text-anchor="start">9a83f9c1...b57e204d</text>
+<text x="104" y="672" fill="#827477" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">SHA-256  /  computed locally</text>
+<rect x="664" y="279" width="452" height="456" rx="14" fill="#1c3931"/>
+<circle cx="714" cy="334" r="23" fill="#a8dfbc"/>
+<path d="M703 334 l8 8 17 -19" stroke="#1c3931" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="698" y="402" fill="#edfff4" font-family="Arial, sans-serif" font-size="32" font-weight="600" text-anchor="start">Integrity confirmed</text>
+<text x="698" y="441" fill="#aed0bd" font-family="Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">The document matches its record.</text>
+<path d="M698 475L1082 475" stroke="#3d5b4d" stroke-width="1" fill="none"/>
+<text x="698" y="500" fill="#aed0bd" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Hash comparison</text>
+<text x="1082" y="500" fill="#edfff4" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="end">Match</text>
+<path d="M698 533L1082 533" stroke="#3d5b4d" stroke-width="1" fill="none"/>
+<text x="698" y="558" fill="#aed0bd" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">On-chain record</text>
+<text x="1082" y="558" fill="#edfff4" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="end">Found</text>
+<path d="M698 591L1082 591" stroke="#3d5b4d" stroke-width="1" fill="none"/>
+<text x="698" y="616" fill="#aed0bd" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">File changes</text>
+<text x="1082" y="616" fill="#edfff4" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="end">None detected</text>
+<text x="84" y="771" fill="#827477" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Private by design. Verify the fingerprint, keep the file.</text>
+</svg>

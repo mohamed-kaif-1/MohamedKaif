@@ -1,0 +1,11 @@
+{
+  "name": "mohamed-kaif-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Complete static portfolio with a dependency-free localhost server",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs"
+  }
+}

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img"><title>CrisisMind AI — interface concept</title><desc>Tax signals. Clearer investigations.. Illustrative interface with sample data.</desc>
+<rect x="0" y="0" width="1200" height="900" rx="0" fill="#e7ece6"/>
+<text x="48" y="82" fill="#1c332b" font-family="Arial, sans-serif" font-size="58" font-weight="700" text-anchor="start">CrisisMind AI</text>
+<text x="50" y="126" fill="#6f8277" font-family="Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Tax signals. Clearer investigations.</text>
+<text x="50" y="866" fill="#6f8277" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">INTERFACE CONCEPT  /  SAMPLE DATA</text>
+<text x="1148" y="866" fill="#6f8277" font-family="Arial, sans-serif" font-size="16" font-weight="500" text-anchor="end">2026</text>
+<rect x="48" y="180" width="1104" height="632" rx="16" fill="#fafcf8" stroke="#dce5dc"/>
+<text x="78" y="221" fill="#1c332b" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">CM / Tax intelligence</text>
+<text x="1118" y="220" fill="#6f8277" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="end">Overview     Signals     Review queue</text>
+<path d="M48 246L1152 246" stroke="#dce5dc" stroke-width="1" fill="none"/>
+<rect x="80" y="274" width="322" height="112" rx="10" fill="#fafcf8" stroke="#dce5dc"/>
+<text x="100" y="304" fill="#6f8277" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Records analyzed</text>
+<text x="100" y="349" fill="#1c332b" font-family="Arial, sans-serif" font-size="35" font-weight="600" text-anchor="start">1,284</text>
+<text x="100" y="372" fill="#6f8277" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Illustrative reporting period</text>
+<rect x="438" y="274" width="322" height="112" rx="10" fill="#fafcf8" stroke="#dce5dc"/>
+<text x="458" y="304" fill="#6f8277" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Flagged for review</text>
+<text x="458" y="349" fill="#1c332b" font-family="Arial, sans-serif" font-size="35" font-weight="600" text-anchor="start">12</text>
+<text x="458" y="372" fill="#6f8277" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Prioritized signals</text>
+<rect x="796" y="274" width="322" height="112" rx="10" fill="#fafcf8" stroke="#dce5dc"/>
+<text x="816" y="304" fill="#6f8277" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Awaiting review</text>
+<text x="816" y="349" fill="#1c332b" font-family="Arial, sans-serif" font-size="35" font-weight="600" text-anchor="start">04</text>
+<text x="816" y="372" fill="#6f8277" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start">Human assessment required</text>
+<text x="80" y="437" fill="#1c332b" font-family="Arial, sans-serif" font-size="25" font-weight="600" text-anchor="start">Reported vs. expected activity</text>
+<text x="80" y="468" fill="#6f8277" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Monthly comparison</text>
+<path d="M86 508L699 508" stroke="#dce5dc" stroke-width="1" fill="none"/>
+<path d="M86 566L699 566" stroke="#dce5dc" stroke-width="1" fill="none"/>
+<path d="M86 624L699 624" stroke="#dce5dc" stroke-width="1" fill="none"/>
+<path d="M86 682L699 682" stroke="#dce5dc" stroke-width="1" fill="none"/>
+<rect x="113" y="612" width="24" height="89" rx="4" fill="#287558"/>
+<rect x="143" y="604" width="24" height="97" rx="4" fill="#bacdbd"/>
+<text x="139" y="731" fill="#6f8277" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle">APR</text>
+<rect x="209" y="590" width="24" height="111" rx="4" fill="#287558"/>
+<rect x="239" y="594" width="24" height="107" rx="4" fill="#bacdbd"/>
+<text x="235" y="731" fill="#6f8277" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle">MAY</text>
+<rect x="305" y="573" width="24" height="128" rx="4" fill="#287558"/>
+<rect x="335" y="578" width="24" height="123" rx="4" fill="#bacdbd"/>
+<text x="331" y="731" fill="#6f8277" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle">JUN</text>
+<rect x="401" y="500" width="24" height="201" rx="4" fill="#287558"/>
+<rect x="431" y="568" width="24" height="133" rx="4" fill="#bacdbd"/>
+<text x="427" y="731" fill="#6f8277" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle">JUL</text>
+<rect x="497" y="558" width="24" height="143" rx="4" fill="#287558"/>
+<rect x="527" y="552" width="24" height="149" rx="4" fill="#bacdbd"/>
+<text x="523" y="731" fill="#6f8277" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle">AUG</text>
+<rect x="593" y="536" width="24" height="165" rx="4" fill="#287558"/>
+<rect x="623" y="543" width="24" height="158" rx="4" fill="#bacdbd"/>
+<text x="619" y="731" fill="#6f8277" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle">SEP</text>
+<rect x="381" y="478" width="128" height="32" rx="16" fill="#f0caa7"/>
+<text x="445.0" y="500" fill="#724218" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Review spike</text>
+<rect x="756" y="418" width="362" height="344" rx="12" fill="#eef3eb"/>
+<text x="780" y="459" fill="#1c332b" font-family="Arial, sans-serif" font-size="23" font-weight="600" text-anchor="start">Priority signal</text>
+<rect x="780" y="481" width="134" height="32" rx="16" fill="#f0caa7"/>
+<text x="847.0" y="503" fill="#724218" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Needs review</text>
+<text x="780" y="548" fill="#1c332b" font-family="Arial, sans-serif" font-size="21" font-weight="600" text-anchor="start">Unusual input-tax claim</text>
+<text x="780" y="582" fill="#6f8277" font-family="Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">A claim differs from the recent</text>
+<text x="780" y="607" fill="#6f8277" font-family="Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">pattern. Compare the source</text>
+<text x="780" y="632" fill="#6f8277" font-family="Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">invoices before taking action.</text>
+<path d="M780 663L1093 663" stroke="#dce5dc" stroke-width="1" fill="none"/>
+<text x="780" y="702" fill="#287558" font-family="Arial, sans-serif" font-size="20" font-weight="600" text-anchor="start">Open evidence</text>
+<text x="80" y="787" fill="#6f8277" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Analysis → supporting evidence → reviewer decision</text>
+</svg>

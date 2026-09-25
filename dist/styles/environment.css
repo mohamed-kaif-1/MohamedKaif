@@ -1,0 +1,98 @@
+/* Only background paint and the minimal ambience control live here. */
+.ink-environment {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  background: #28272a;
+}
+.ink-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: filter 1.4s ease;
+}
+.ink-readability {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(#0003, #0005 48%, #0006),
+    radial-gradient(ellipse at 50% 45%, #0002, transparent 75%);
+}
+.ink-environment.in-projects .ink-canvas {
+  filter: brightness(0.62) blur(1.5px);
+}
+.landscape-ready .atmosphere {
+  display: none;
+}
+.landscape-ready main {
+  z-index: 1;
+}
+.landscape-ready .hero-stage {
+  background: transparent;
+}
+.landscape-ready .hero-stage::after {
+  background:
+    linear-gradient(0deg, #0003, transparent 25%),
+    radial-gradient(ellipse at center, #0002, transparent 75%);
+}
+.landscape-ready .hero-light i {
+  background: radial-gradient(ellipse at center, #690d1618, transparent 65%);
+}
+.landscape-ready .hero + .selected-work {
+  background: transparent;
+}
+.landscape-ready .project-archive {
+  background: transparent;
+}
+.landscape-ready .stack {
+  background: transparent;
+}
+.landscape-ready .archive-stage {
+  background: radial-gradient(ellipse at center, #050505b8, #05050565);
+}
+.ambient-toggle {
+  position: fixed;
+  bottom: 16px;
+  right: var(--gutter);
+  z-index: 45;
+  padding: 10px 12px;
+  border: 1px solid #f1edea40;
+  background: #050505b8;
+  color: var(--paper);
+  font:
+    500 10px Arial,
+    sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  min-height: 36px;
+  cursor: pointer;
+}
+.ambient-toggle[aria-pressed="true"] {
+  border-color: #d7192d88;
+}
+.ambient-toggle[aria-pressed="true"]::before {
+  content: "";
+  display: inline-block;
+  margin-right: 7px;
+  width: 4px;
+  height: 4px;
+  background: var(--red);
+  border-radius: 50%;
+}
+@media (max-width: 600px) {
+  .ambient-toggle {
+    right: 14px;
+    bottom: 10px;
+    padding: 10px;
+  }
+  .ink-environment.in-projects .ink-canvas {
+    filter: brightness(0.65);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ink-canvas {
+    transition: none;
+  }
+}

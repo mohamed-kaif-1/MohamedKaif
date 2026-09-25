@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img"><title>AuthForge — interface concept</title><desc>Turn a request into a governed action.. Illustrative interface with sample data.</desc>
+<rect x="0" y="0" width="1200" height="900" rx="0" fill="#e8e3f3"/>
+<text x="48" y="82" fill="#2d2440" font-family="Arial, sans-serif" font-size="58" font-weight="700" text-anchor="start">AuthForge</text>
+<text x="50" y="126" fill="#82758f" font-family="Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Turn a request into a governed action.</text>
+<text x="50" y="866" fill="#82758f" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">INTERFACE CONCEPT  /  SAMPLE DATA</text>
+<text x="1148" y="866" fill="#82758f" font-family="Arial, sans-serif" font-size="16" font-weight="500" text-anchor="end">2026</text>
+<rect x="48" y="180" width="1104" height="632" rx="16" fill="#fffefe" stroke="#e2dbea"/>
+<text x="78" y="221" fill="#2d2440" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">AF / Request workbench</text>
+<text x="1118" y="220" fill="#82758f" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="end">Requests     Policies     Audit trail</text>
+<path d="M48 246L1152 246" stroke="#e2dbea" stroke-width="1" fill="none"/>
+<text x="82" y="294" fill="#2d2440" font-family="Arial, sans-serif" font-size="24" font-weight="600" text-anchor="start">Your request</text>
+<rect x="80" y="319" width="499" height="153" rx="10" fill="#f6f3fb" stroke="#e1d6f0"/>
+<text x="102" y="356" fill="#2d2440" font-family="Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">Summarize this month’s invoices</text>
+<text x="102" y="386" fill="#2d2440" font-family="Arial, sans-serif" font-size="21" font-weight="400" text-anchor="start">and flag overdue payments.</text>
+<text x="102" y="442" fill="#82758f" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">Natural language input</text>
+<text x="82" y="522" fill="#2d2440" font-family="Arial, sans-serif" font-size="23" font-weight="600" text-anchor="start">Policy checks</text>
+<circle cx="96" cy="560" r="8" fill="#d4c5ef"/>
+<text x="116" y="566" fill="#2d2440" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="start">Access scope</text>
+<text x="116" y="591" fill="#82758f" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Invoices: read only</text>
+<circle cx="96" cy="624" r="8" fill="#d4c5ef"/>
+<text x="116" y="630" fill="#2d2440" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="start">Data boundaries</text>
+<text x="116" y="655" fill="#82758f" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Approved workspace</text>
+<circle cx="96" cy="688" r="8" fill="#d4c5ef"/>
+<text x="116" y="694" fill="#2d2440" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="start">Action control</text>
+<text x="116" y="719" fill="#82758f" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Review before execution</text>
+<rect x="81" y="745" width="192" height="32" rx="16" fill="#7954c2"/>
+<text x="177.0" y="767" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Validate request</text>
+<rect x="617" y="276" width="501" height="500" rx="12" fill="#282136"/>
+<text x="644" y="317" fill="#f6efff" font-family="Arial, sans-serif" font-size="24" font-weight="600" text-anchor="start">Structured output</text>
+<rect x="924" y="294" width="166" height="32" rx="16" fill="#47385e"/>
+<text x="1007.0" y="316" fill="#dccbfa" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Policy checked</text>
+<text x="645" y="379" fill="#ddd0f2" font-family="monospace" font-size="18" font-weight="400" text-anchor="start">{</text>
+<text x="645" y="413" fill="#c5b0ef" font-family="monospace" font-size="18" font-weight="400" text-anchor="start">  &quot;intent&quot;: &quot;invoice_summary&quot;,</text>
+<text x="645" y="447" fill="#c5b0ef" font-family="monospace" font-size="18" font-weight="400" text-anchor="start">  &quot;scope&quot;: &quot;current_month&quot;,</text>
+<text x="645" y="481" fill="#c5b0ef" font-family="monospace" font-size="18" font-weight="400" text-anchor="start">  &quot;include&quot;: [</text>
+<text x="645" y="515" fill="#a1dabf" font-family="monospace" font-size="18" font-weight="400" text-anchor="start">    &quot;overdue_payments&quot;</text>
+<text x="645" y="549" fill="#c5b0ef" font-family="monospace" font-size="18" font-weight="400" text-anchor="start">  ],</text>
+<text x="645" y="583" fill="#c5b0ef" font-family="monospace" font-size="18" font-weight="400" text-anchor="start">  &quot;permissions&quot;: &quot;read_only&quot;,</text>
+<text x="645" y="617" fill="#eac591" font-family="monospace" font-size="18" font-weight="400" text-anchor="start">  &quot;approval&quot;: &quot;required&quot;</text>
+<text x="645" y="651" fill="#ddd0f2" font-family="monospace" font-size="18" font-weight="400" text-anchor="start">}</text>
+<path d="M644 701L1090 701" stroke="#47385e" stroke-width="1" fill="none"/>
+<text x="644" y="739" fill="#d8c7f5" font-family="Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Ready for human review</text>
+</svg>

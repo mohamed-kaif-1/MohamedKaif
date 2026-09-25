@@ -1,0 +1,20 @@
+MOHAMED KAIF PORTFOLIO - LOCALHOST
+
+1. Extract the entire ZIP first.
+2. Make sure Node.js is installed on your computer.
+3. Open the extracted Mohamed-Kaif-Portfolio folder.
+4. On Windows, double-click START_LOCAL.bat.
+5. Visit http://localhost:4000 if the browser does not open automatically.
+
+Keep the terminal window open while viewing the portfolio.
+Press Ctrl+C to stop the server.
+
+Terminal alternative (Windows / macOS / Linux):
+  node server.mjs
+
+Or:
+  npm start
+
+No npm install, API key, database, or build step is needed.
+Do not double-click dist/index.html; use the localhost server.
+Read README.md for the complete folder map and editing guide.

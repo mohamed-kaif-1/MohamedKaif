@@ -1,0 +1,255 @@
+export const projects = [
+  {
+    id: "poneglyph",
+    title: "Poneglyph",
+    line: "Multimodal media authenticity AI",
+    category: "AI / Media forensics",
+    year: "2026",
+    role: "AI + Full-stack",
+    tags: ["Next.js", "FastAPI", "Python", "PyTorch"],
+    color: "#10151b",
+    image: "assets/images/kaif/poneglyph-brand.png",
+    preview: "assets/images/kaif/poneglyph-product-preview.svg",
+    stack: "assets/images/kaif/poneglyph-stack.svg",
+    workflow: "assets/images/kaif/poneglyph-workflow.svg",
+    problem:
+      "Synthetic photographs and voices are becoming difficult to identify by human inspection. Most detection tools also focus on only one media type, leaving people to use separate systems with inconsistent results.",
+    idea: "Poneglyph identifies the uploaded media type, routes it through a specialized image or audio pipeline and translates model output into an understandable authenticity assessment — not just a binary real-or-fake claim.",
+    architecture: [
+      "Next.js interface",
+      "FastAPI inference service",
+      "Python preprocessing",
+      "PyTorch models",
+      "Hugging Face ecosystem",
+      "AWS / Amazon Nova exploration",
+    ],
+    process:
+      "Upload → media type detection → preprocessing → specialized model analysis → authenticity probability → confidence score → human-readable result.",
+    challenge:
+      "Normalizing different model outputs into one honest confidence language while managing the version and runtime constraints common in ML systems.",
+    result:
+      "A prototyped multimodal authenticity platform developed in the context of the Amazon Nova AI Hackathon, with a clear path toward a broader digital-media forensic tool.",
+  },
+  {
+    id: "sheproof",
+    title: "SheProof",
+    line: "Tamper-evident digital evidence",
+    category: "Blockchain / Safety",
+    year: "2026",
+    role: "Product + Web3",
+    tags: ["React", "Solidity", "SHA-256", "Ethereum"],
+    color: "#171012",
+    link: "https://github.com/mohamed-kaif-1/SheProof",
+    image: "assets/images/kaif/sheproof-brand.png",
+    preview: "assets/images/kaif/sheproof-product-preview.svg",
+    stack: "assets/images/kaif/sheproof-stack.svg",
+    workflow: "assets/images/kaif/sheproof-workflow.svg",
+    problem:
+      "A digital file can be edited, replaced, renamed or recompressed after creation. Centralized verification records also create a point of trust that can itself be compromised.",
+    idea: "SheProof creates a SHA-256 fingerprint for evidence and anchors the proof to an Ethereum-compatible blockchain. Verification recomputes the hash and checks it against the registered record.",
+    architecture: [
+      "React + Vite interface",
+      "SHA-256 hashing layer",
+      "Solidity smart contract",
+      "Hardhat development",
+      "MetaMask-compatible flow",
+      "Netlify deployment",
+    ],
+    process:
+      "Original file → cryptographic hash → blockchain proof → later hash comparison → integrity result. The private evidence itself does not need to be stored publicly on-chain.",
+    challenge:
+      "Preserving privacy while still gaining independent verification, and making cryptographic integrity understandable to a non-technical user.",
+    result:
+      "A built and publicly deployed verification project with its source available on GitHub.",
+  },
+  {
+    id: "crisismind",
+    title: "CrisisMind AI",
+    line: "Explainable tax-risk intelligence",
+    category: "AI / Decision support",
+    year: "2026",
+    role: "Backend + AI",
+    tags: ["Node.js", "Express", "MongoDB", "Gemini"],
+    color: "#141016",
+    link: "https://github.com/mohamed-kaif-1/CrisisMindAI",
+    image: "assets/images/kaif/crisismind-brand.png",
+    preview: "assets/images/kaif/crisismind-product-preview.svg",
+    stack: "assets/images/kaif/crisismind-stack.svg",
+    workflow: "assets/images/kaif/crisismind-workflow.svg",
+    problem:
+      "Large financial datasets hide anomalies across many variables. Traditional reports explain what happened, but not what looks unusual, why it matters or where an analyst should investigate next.",
+    idea: "CrisisMind AI turns structured tax and financial signals into explainable risk insights. Deterministic analysis identifies patterns; Gemini adds contextual explanation; a human makes the final judgment.",
+    architecture: [
+      "Node.js services",
+      "Express API",
+      "MongoDB cases",
+      "Gemini reasoning layer",
+      "Web dashboard",
+      "Human review workflow",
+    ],
+    process:
+      "Structured data → backend processing → anomaly signals → contextual AI analysis → explanation → risk insight → analyst review.",
+    challenge:
+      "Designing AI as accountable decision support. The system must communicate uncertainty and avoid presenting a pattern as proof of wrongdoing.",
+    result:
+      "A working development project that demonstrates how generative AI can sit above structured detection without replacing investigators.",
+  },
+  {
+    id: "nexus",
+    title: "Nexus",
+    line: "Shared intelligence for public safety",
+    category: "Smart city / Systems",
+    year: "2026",
+    role: "System design",
+    tags: ["Data fusion", "Policy rules", "AI", "Simulation"],
+    color: "#0f141a",
+    link: "https://github.com/mohamed-kaif-1/Nexus",
+    image: "assets/images/kaif/nexus-brand.png",
+    preview: "assets/images/kaif/nexus-product-preview.svg",
+    stack: "assets/images/kaif/nexus-stack.svg",
+    workflow: "assets/images/kaif/nexus-workflow.svg",
+    problem:
+      "Rainfall, flood levels, traffic and response capacity are often watched by different departments. Fragmented information slows the formation of a coordinated emergency response.",
+    idea: "Nexus fuses live or simulated signals into a shared operational picture, detects emerging risk and combines AI with explicit policy rules to recommend a coordinated action plan.",
+    architecture: [
+      "Sensor simulation",
+      "Normalization layer",
+      "Risk engine",
+      "AI + policy rules",
+      "Joint action planner",
+      "Central dashboard",
+    ],
+    process:
+      "Collect signals → fuse context → estimate severity → propose actions → assign agencies → monitor outcomes → escalate when thresholds change.",
+    challenge:
+      "Making a multi-agency plan scalable and explainable while ensuring high-impact operational decisions stay with authorized people.",
+    result:
+      "An active systems prototype and architecture for closed-loop, human-supervised public-safety coordination.",
+  },
+  {
+    id: "authforge",
+    title: "AuthForge",
+    line: "Governed natural-language actions",
+    category: "AI / Governance",
+    year: "2026",
+    role: "Full-stack + AI",
+    tags: ["AI", "Supabase", "Policy", "Web app"],
+    color: "#161214",
+    link: "https://github.com/mohamed-kaif-1/AuthForge",
+    image: "assets/images/kaif/authforge-brand.png",
+    preview: "assets/images/kaif/authforge-product-preview.svg",
+    stack: "assets/images/kaif/authforge-stack.svg",
+    workflow: "assets/images/kaif/authforge-workflow.svg",
+    problem:
+      "Natural-language AI can be useful, but organizations also need authorization, traceability and validation around what the system is allowed to do.",
+    idea: "AuthForge converts a user request into a structured action, evaluates governance constraints and returns a reviewable output before anything consequential is executed.",
+    architecture: [
+      "Web interface",
+      "Language interpretation",
+      "Structured action schema",
+      "Policy evaluation",
+      "Supabase services",
+      "Audit-ready output",
+    ],
+    process:
+      "Intent → structured request → identity and policy check → governed output → approval → optional execution.",
+    challenge:
+      "Turning ambiguous human language into a precise action without hiding assumptions, permissions or policy decisions inside the model.",
+    result:
+      "A product direction for using AI as a governed system component instead of an unrestricted chat interface.",
+  },
+  {
+    id: "chrissoft",
+    title: "Chrissoft AI",
+    line: "Intelligent operating system for MSMEs",
+    category: "ERP / Business AI",
+    year: "2026",
+    role: "Backend + Product",
+    tags: ["Node.js", "PostgreSQL", "Docker", "AI"],
+    color: "#101616",
+    link: "https://github.com/Joshuamathewj2/Chrissoft",
+    image: "assets/images/kaif/chrissoft-brand.png",
+    preview: "assets/images/kaif/chrissoft-product-preview.svg",
+    stack: "assets/images/kaif/chrissoft-stack.svg",
+    workflow: "assets/images/kaif/chrissoft-workflow.svg",
+    problem:
+      "Small businesses often run billing, purchases, inventory and receivables across disconnected tools. Even when data exists, owners must interpret raw reports on their own.",
+    idea: "Chrissoft AI unifies daily ERP operations, then continuously turns the resulting business data into forecasts, alerts, explanations and practical recommendations.",
+    architecture: [
+      "Modular Node.js workspace",
+      "PostgreSQL",
+      "Docker services",
+      "Inventory + procurement",
+      "Analytics",
+      "AI service",
+    ],
+    process:
+      "Operational records → unified business model → forecasting and anomaly analysis → natural-language explanation → owner decision.",
+    challenge:
+      "Real integration work across packages, TypeScript modules, databases and containerized services — while keeping the product simple enough for an MSME owner.",
+    result:
+      "An actively developed backend and product architecture for a human-controlled, AI-native ERP rather than “ERP with a chatbot.”",
+  },
+  {
+    id: "travelpass",
+    title: "TravelPass",
+    line: "Verify once. Reuse with consent.",
+    category: "Identity / Web3",
+    year: "2026",
+    role: "API + Product",
+    tags: ["Credentials", "x402", "Identity", "Blockchain"],
+    color: "#0d1518",
+    image: "assets/images/kaif/travelpass-brand.png",
+    preview: "assets/images/kaif/travelpass-product-preview.svg",
+    stack: "assets/images/kaif/travelpass-stack.svg",
+    workflow: "assets/images/kaif/travelpass-workflow.svg",
+    problem:
+      "Travelers repeatedly give passports and identity documents to airlines, hotels and rental providers. Every additional stored copy increases privacy and breach risk.",
+    idea: "TravelPass separates verification from repeated document sharing. A reusable credential lets a traveler approve the specific claims a service needs without sending the full raw document again.",
+    architecture: [
+      "OCR + identity extraction",
+      "Face verification",
+      "Verifiable credentials",
+      "Consent service",
+      "Revocation registry",
+      "x402 API payments",
+    ],
+    process:
+      "Register → verify identity → issue credential → provider requests fields → traveler consents → minimal verified response → status and revocation check.",
+    challenge:
+      "Balancing reuse, interoperability and machine-to-machine access with explicit consent, minimal disclosure and secure revocation.",
+    result:
+      "An API-first hackathon and product-architecture prototype for privacy-preserving travel identity infrastructure.",
+  },
+  {
+    id: "codegarden",
+    title: "Code Garden",
+    line: "Learn Java. Grow something.",
+    category: "Education / Desktop",
+    year: "2026",
+    role: "Java development",
+    tags: ["Java", "JavaFX", "JShell", "Gson"],
+    color: "#11170f",
+    image: "assets/images/kaif/codegarden-brand.png",
+    preview: "assets/images/kaif/codegarden-product-preview.svg",
+    stack: "assets/images/kaif/codegarden-stack.svg",
+    workflow: "assets/images/kaif/codegarden-workflow.svg",
+    problem:
+      "Programming progress feels abstract to beginners. Delayed feedback and invisible improvement can make practice feel repetitive and difficult to sustain.",
+    idea: "Code Garden turns learning into a visible loop: solve Java challenges, earn coins and use them to move a virtual plant through six stages of growth.",
+    architecture: [
+      "Java + JDK 21",
+      "JavaFX presentation",
+      "JShell execution engine",
+      "Validation engine",
+      "Gamification layer",
+      "Gson / JSON persistence",
+    ],
+    process:
+      "Choose lesson → write code → execute safely → validate output → earn coins → grow plant → save progress.",
+    challenge:
+      "Running learner code, validating flexible solutions and keeping the experience responsive while preserving progress in a desktop application.",
+    result:
+      "A distinctive educational product concept combining live Java execution, automated checking, rewards and a calm visual metaphor for progress.",
+  },
+];

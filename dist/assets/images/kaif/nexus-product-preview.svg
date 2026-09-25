@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img"><title>Nexus — interface concept</title><desc>Public-safety signals, brought together.. Illustrative interface with sample data.</desc>
+<rect x="0" y="0" width="1200" height="900" rx="0" fill="#091f2b"/>
+<text x="48" y="82" fill="#e6f6fa" font-family="Arial, sans-serif" font-size="58" font-weight="700" text-anchor="start">Nexus</text>
+<text x="50" y="126" fill="#8faab4" font-family="Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Public-safety signals, brought together.</text>
+<text x="50" y="866" fill="#8faab4" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">INTERFACE CONCEPT  /  SAMPLE DATA</text>
+<text x="1148" y="866" fill="#8faab4" font-family="Arial, sans-serif" font-size="16" font-weight="500" text-anchor="end">2026</text>
+<rect x="48" y="180" width="1104" height="632" rx="16" fill="#102e3e" stroke="#2a4755"/>
+<text x="78" y="221" fill="#e6f6fa" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">N / Response workspace</text>
+<text x="1118" y="220" fill="#8faab4" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="end">SIMULATION  /  Sector 04</text>
+<path d="M48 246L1152 246" stroke="#2a4755" stroke-width="1" fill="none"/>
+<text x="80" y="294" fill="#e6f6fa" font-family="Arial, sans-serif" font-size="26" font-weight="600" text-anchor="start">Live signal overview</text>
+<rect x="919" y="270" width="197" height="32" rx="16" fill="#234d54"/>
+<text x="1017.5" y="292" fill="#8df4df" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Simulation active</text>
+<rect x="80" y="321" width="680" height="432" rx="10" fill="#0b2533"/>
+<path d="M100 336L100 737" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M161 336L161 737" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M222 336L222 737" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M283 336L283 737" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M344 336L344 737" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M405 336L405 737" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M466 336L466 737" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M527 336L527 737" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M588 336L588 737" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M649 336L649 737" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M710 336L710 737" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M96 349L746 349" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M96 410L746 410" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M96 471L746 471" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M96 532L746 532" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M96 593L746 593" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M96 654L746 654" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M96 715L746 715" stroke="#173947" stroke-width="1" fill="none"/>
+<path d="M96 628 L228 628 L228 539 L384 539 L384 412 L557 412 L557 342" stroke="#385d6b" stroke-width="18" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M180 341 L180 451 L320 451 L320 671 L575 671 L575 738" stroke="#254a5a" stroke-width="22" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M384 539 L532 539 L532 604 L734 604" stroke="#51ddcf" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="228" cy="539" r="15" fill="#173b48"/>
+<circle cx="228" cy="539" r="6" fill="#efac67"/>
+<rect x="168" y="565" width="153" height="30" rx="5" fill="#193d4d"/>
+<text x="180" y="586" fill="#efac67" font-family="Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start">WATER · 1.8 m</text>
+<circle cx="384" cy="412" r="15" fill="#173b48"/>
+<circle cx="384" cy="412" r="6" fill="#51ddcf"/>
+<rect x="324" y="438" width="153" height="30" rx="5" fill="#193d4d"/>
+<text x="336" y="459" fill="#51ddcf" font-family="Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start">RAIN · 42 mm</text>
+<circle cx="532" cy="604" r="15" fill="#173b48"/>
+<circle cx="532" cy="604" r="6" fill="#efac67"/>
+<rect x="472" y="630" width="153" height="30" rx="5" fill="#193d4d"/>
+<text x="484" y="651" fill="#efac67" font-family="Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start">TRAFFIC · HIGH</text>
+<text x="107" y="721" fill="#8faab4" font-family="Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start">SCHEMATIC SENSOR ZONES</text>
+<rect x="789" y="321" width="326" height="432" rx="10" fill="#173c4a"/>
+<text x="812" y="363" fill="#e6f6fa" font-family="Arial, sans-serif" font-size="24" font-weight="600" text-anchor="start">Response plan</text>
+<rect x="812" y="386" width="150" height="32" rx="16" fill="#674828"/>
+<text x="887.0" y="408" fill="#ffcf94" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Elevated risk</text>
+<text x="812" y="468" fill="#e6f6fa" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="start">01  Review sensor data</text>
+<text x="812" y="498" fill="#8faab4" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Rainfall + water level</text>
+<path d="M812 517L1091 517" stroke="#2a4755" stroke-width="1" fill="none"/>
+<text x="812" y="562" fill="#e6f6fa" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="start">02  Assess road access</text>
+<text x="812" y="592" fill="#8faab4" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Check affected routes</text>
+<path d="M812 611L1091 611" stroke="#2a4755" stroke-width="1" fill="none"/>
+<text x="812" y="656" fill="#e6f6fa" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="start">03  Coordinate response</text>
+<text x="812" y="686" fill="#8faab4" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Human approval required</text>
+<path d="M812 705L1091 705" stroke="#2a4755" stroke-width="1" fill="none"/>
+<text x="80" y="789" fill="#8faab4" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Data fusion  /  Policy rules  /  Coordinated escalation</text>
+</svg>

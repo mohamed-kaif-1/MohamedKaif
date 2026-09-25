@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img"><title>TravelPass — interface concept</title><desc>Prove what matters. Share only what is needed.. Illustrative interface with sample data.</desc>
+<rect x="0" y="0" width="1200" height="900" rx="0" fill="#dceae5"/>
+<text x="48" y="82" fill="#123e36" font-family="Arial, sans-serif" font-size="58" font-weight="700" text-anchor="start">TravelPass</text>
+<text x="50" y="126" fill="#64857a" font-family="Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Prove what matters. Share only what is needed.</text>
+<text x="50" y="866" fill="#64857a" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">INTERFACE CONCEPT  /  SAMPLE DATA</text>
+<text x="1148" y="866" fill="#64857a" font-family="Arial, sans-serif" font-size="16" font-weight="500" text-anchor="end">2026</text>
+<rect x="49" y="180" width="1101" height="631" rx="20" fill="#f6fcf8" stroke="#c9dcd4"/>
+<text x="87" y="237" fill="#123e36" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="start">TP / Travel identity</text>
+<text x="87" y="316" fill="#123e36" font-family="Arial, sans-serif" font-size="40" font-weight="600" text-anchor="start">One credential.</text>
+<text x="87" y="362" fill="#123e36" font-family="Arial, sans-serif" font-size="40" font-weight="600" text-anchor="start">You control the details.</text>
+<text x="87" y="414" fill="#64857a" font-family="Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start">Selective disclosure</text>
+<rect x="87" y="451" width="554" height="233" rx="12" fill="#e6f2eb"/>
+<text x="111" y="492" fill="#64857a" font-family="Arial, sans-serif" font-size="17" font-weight="400" text-anchor="start">A service requests</text>
+<text x="111" y="537" fill="#123e36" font-family="Arial, sans-serif" font-size="20" font-weight="600" text-anchor="start">Valid travel credential</text>
+<rect x="503" y="514" width="112" height="32" rx="16" fill="#c8e7d8"/>
+<text x="559.0" y="536" fill="#1c7863" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">SHARE</text>
+<text x="111" y="588" fill="#123e36" font-family="Arial, sans-serif" font-size="20" font-weight="600" text-anchor="start">Full identity document</text>
+<rect x="503" y="565" width="112" height="32" rx="16" fill="#edf5f0"/>
+<text x="559.0" y="587" fill="#1c7863" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">PRIVATE</text>
+<text x="111" y="639" fill="#123e36" font-family="Arial, sans-serif" font-size="20" font-weight="600" text-anchor="start">Travel history</text>
+<rect x="503" y="616" width="112" height="32" rx="16" fill="#edf5f0"/>
+<text x="559.0" y="638" fill="#1c7863" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">PRIVATE</text>
+<rect x="88" y="717" width="230" height="32" rx="16" fill="#1c7863"/>
+<text x="203.0" y="739" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Review request</text>
+<rect x="710" y="213" width="345" height="562" rx="36" fill="#173f37"/>
+<rect x="722" y="225" width="321" height="538" rx="27" fill="#f8fdf9"/>
+<rect x="832" y="239" width="100" height="8" rx="4" fill="#b5cdc1"/>
+<text x="745" y="290" fill="#123e36" font-family="Arial, sans-serif" font-size="22" font-weight="600" text-anchor="start">My TravelPass</text>
+<rect x="744" y="315" width="275" height="176" rx="17" fill="#1c7863"/>
+<text x="765" y="352" fill="#bde7d1" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">TRAVEL CREDENTIAL</text>
+<text x="765" y="399" fill="#ffffff" font-family="Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">Identity verified</text>
+<text x="765" y="441" fill="#bde7d1" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Private by default</text>
+<text x="765" y="469" fill="#bde7d1" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start">Concept credential</text>
+<text x="745" y="535" fill="#123e36" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="start">Disclosure request</text>
+<text x="745" y="570" fill="#64857a" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Credential validity only</text>
+<path d="M744 591L1020 591" stroke="#c9dcd4" stroke-width="1" fill="none"/>
+<text x="745" y="625" fill="#64857a" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Personal details</text>
+<text x="1018" y="625" fill="#1c7863" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="end">Hidden</text>
+<rect x="744" y="668" width="275" height="32" rx="16" fill="#1c7863"/>
+<text x="881.5" y="690" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Approve disclosure</text>
+</svg>

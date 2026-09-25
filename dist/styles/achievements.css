@@ -1,0 +1,577 @@
+/* ==========================================================================
+   HALL OF HONORS — ACHIEVEMENTS SECTION (PHYSICAL HANGING PLAQUES)
+   ========================================================================== */
+
+.achievements {
+  position: relative;
+  padding: 160px var(--gutter, 5vw) 160px;
+  overflow: hidden;
+  background: transparent;
+  color: var(--paper, #e6dddb);
+  isolation: isolate;
+}
+
+/* Background watermark text */
+.honors-backdrop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--display, "Breton", serif);
+  font-size: clamp(80px, 18vw, 260px);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.015);
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  white-space: nowrap;
+}
+
+/* Header */
+.honors-header {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 70px;
+}
+
+.honors-title {
+  font-family: var(--display, "Breton", serif);
+  font-size: clamp(2rem, 3.8vw, 3.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin: 12px 0 0;
+  color: #f0e6e4;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Invisible Hanging Rail at Top */
+.honors-rail {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(180, 30, 35, 0.4) 15%,
+    rgba(220, 50, 50, 0.7) 50%,
+    rgba(180, 30, 35, 0.4) 85%,
+    transparent 100%
+  );
+  margin-bottom: 30px;
+  box-shadow: 0 1px 8px rgba(180, 30, 35, 0.3);
+  z-index: 2;
+}
+
+.honors-rail::before,
+.honors-rail::after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #cf3535;
+  box-shadow: 0 0 10px #cf3535;
+}
+
+.honors-rail::before { left: 5%; }
+.honors-rail::after { right: 5%; }
+
+/* Honors Gallery Composition */
+.honors-gallery {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 36px 20px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/* Asymmetric Positioning */
+.honors-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.honors-item.item-1 {
+  grid-column: 1 / span 6;
+  margin-top: 0;
+}
+
+.honors-item.item-2 {
+  grid-column: 7 / span 6;
+  margin-top: 55px;
+}
+
+.honors-item.item-3 {
+  grid-column: 1 / span 6;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.honors-item.item-4 {
+  grid-column: 7 / span 6;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+.honors-item.item-5 {
+  grid-column: 4 / span 6;
+  margin-top: 35px;
+}
+
+/* Physical Swing Assembly (pendulum sway from top attachment point) */
+.honors-swing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  transform-origin: top center;
+  will-change: transform;
+}
+
+/* Deep Red Hanging Cords */
+.honors-cords {
+  position: relative;
+  width: 80%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.cord {
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(220, 40, 45, 0.85) 0%,
+    rgba(140, 20, 25, 0.95) 70%,
+    rgba(200, 35, 40, 0.8) 100%
+  );
+  box-shadow: 1px 0 3px rgba(0, 0, 0, 0.8), -1px 0 2px rgba(220, 40, 45, 0.2);
+  transform-origin: top center;
+  transition: height 0.4s ease;
+}
+
+.cord-left { left: 22px; }
+.cord-right { right: 22px; }
+
+/* Physical Plaque Card */
+.plaque-card {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  background: linear-gradient(165deg, #1d1919 0%, #110e0e 55%, #181414 100%);
+  border: 1px solid rgba(180, 40, 40, 0.3);
+  border-radius: 4px;
+  padding: 26px 28px 22px;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-family: inherit;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.8),
+    0 16px 40px rgba(0, 0, 0, 0.65),
+    0 4px 12px rgba(0, 0, 0, 0.4);
+  /* Custom clipped bevel corner effect */
+  clip-path: polygon(
+    12px 0, calc(100% - 12px) 0, 
+    100% 12px, 100% calc(100% - 12px), 
+    calc(100% - 12px) 100%, 12px 100%, 
+    0 calc(100% - 12px), 0 12px
+  );
+  transition:
+    transform 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+  transform-origin: top center;
+  will-change: transform;
+}
+
+/* Primary Plaque (1st Place Robo Rumble) Prominence */
+.plaque-primary {
+  max-width: 480px;
+  background: linear-gradient(165deg, #241d1d 0%, #141010 50%, #1c1616 100%);
+  border-color: rgba(220, 50, 50, 0.45);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 0 20px rgba(180, 30, 35, 0.15),
+    0 20px 50px rgba(0, 0, 0, 0.75),
+    0 0 25px rgba(180, 30, 35, 0.15);
+}
+
+/* Plaque Holes (where cords attach) */
+.plaque-holes {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  padding: 0 22px;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.plaque-holes .hole {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #090808;
+  border: 1px solid rgba(220, 50, 50, 0.5);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+/* Plaque Inner Border */
+.plaque-border {
+  position: absolute;
+  inset: 6px;
+  border: 1px dashed rgba(180, 40, 40, 0.2);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Plaque Shimmer Light Sweep */
+.plaque-shimmer {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.03) 45%,
+    rgba(220, 50, 50, 0.12) 50%,
+    rgba(255, 255, 255, 0.03) 55%,
+    transparent 100%
+  );
+  transform: translateX(-120%);
+  transition: transform 0.75s ease-out;
+  pointer-events: none;
+}
+
+.plaque-card:hover .plaque-shimmer {
+  transform: translateX(120%);
+}
+
+/* Plaque Header & Sigil */
+.plaque-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.plaque-sigil {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 0 6px rgba(220, 40, 45, 0.5));
+}
+
+.plaque-tag {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(220, 50, 50, 0.85);
+  font-weight: 600;
+}
+
+/* Rank Number - Dominant Engraved Typography */
+.plaque-rank {
+  font-family: var(--display, "Breton", serif);
+  font-size: clamp(38px, 4vw, 54px);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #f3eceb;
+  text-shadow:
+    0 1px 1px rgba(255, 255, 255, 0.2),
+    0 -1px 2px rgba(0, 0, 0, 0.9),
+    0 4px 15px rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.plaque-primary .plaque-rank {
+  color: #ffffff;
+  text-shadow:
+    0 0 20px rgba(220, 50, 50, 0.35),
+    0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+/* Event Title & Award */
+.plaque-event {
+  font-family: inherit;
+  font-size: clamp(15px, 1.3vw, 19px);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #dfd5d3;
+  margin: 0 0 6px;
+  line-height: 1.25;
+}
+
+.plaque-award {
+  font-size: 11px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--muted, #9c9290);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* Tap Hint */
+.plaque-hint {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(180, 40, 40, 0.2);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(220, 50, 50, 0.7);
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.plaque-hint svg {
+  transition: transform 0.3s ease;
+}
+
+/* Detail Panel (Expands local content) */
+.plaque-detail {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.45s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.35s ease;
+}
+
+.plaque-card[aria-expanded="true"] .plaque-detail {
+  max-height: 220px;
+  opacity: 1;
+  margin-top: 16px;
+}
+
+.plaque-card[aria-expanded="true"] .plaque-hint {
+  color: #cf3535;
+  border-color: rgba(220, 50, 50, 0.5);
+}
+
+.plaque-card[aria-expanded="true"] .plaque-hint svg {
+  transform: rotate(180deg);
+}
+
+.detail-divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(220, 50, 50, 0.5), transparent);
+  margin-bottom: 14px;
+}
+
+.detail-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.detail-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.detail-label {
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(220, 50, 50, 0.85);
+}
+
+.detail-val {
+  color: #e6dddb;
+  line-height: 1.4;
+}
+
+/* Hover States (Desktop) */
+@media (hover: hover) {
+  .plaque-card:hover {
+    border-color: rgba(220, 50, 50, 0.6);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.15),
+      inset 0 0 15px rgba(180, 30, 35, 0.2),
+      0 22px 50px rgba(0, 0, 0, 0.8),
+      0 0 20px rgba(180, 30, 35, 0.25);
+    transform: translateY(-4px) scale(1.01);
+  }
+
+  .plaque-card:hover .plaque-rank {
+    color: #ffffff;
+    text-shadow:
+      0 0 15px rgba(220, 50, 50, 0.5),
+      0 2px 4px rgba(0, 0, 0, 0.9);
+  }
+
+  .plaque-card:hover .plaque-hint {
+    color: #f04040;
+  }
+}
+
+/* Keyboard Focus Accessibility */
+.plaque-card:focus-visible {
+  outline: 2px solid #cf3535;
+  outline-offset: 4px;
+}
+
+/* ==========================================================================
+   IDLE MOTION: VERY SUBTLE HANGING PENDULUM SWING KEYFRAMES
+   ========================================================================== */
+
+@keyframes plaqueSwing1 {
+  0%   { transform: rotate(-0.55deg); }
+  50%  { transform: rotate(0.55deg); }
+  100% { transform: rotate(-0.55deg); }
+}
+
+@keyframes plaqueSwing2 {
+  0%   { transform: rotate(0.60deg); }
+  50%  { transform: rotate(-0.60deg); }
+  100% { transform: rotate(0.60deg); }
+}
+
+@keyframes plaqueSwing3 {
+  0%   { transform: rotate(-0.48deg); }
+  50%  { transform: rotate(0.48deg); }
+  100% { transform: rotate(-0.48deg); }
+}
+
+@keyframes plaqueSwing4 {
+  0%   { transform: rotate(0.52deg); }
+  50%  { transform: rotate(-0.52deg); }
+  100% { transform: rotate(0.52deg); }
+}
+
+@keyframes plaqueSwing5 {
+  0%   { transform: rotate(-0.50deg); }
+  50%  { transform: rotate(0.50deg); }
+  100% { transform: rotate(-0.50deg); }
+}
+
+.item-1 .honors-swing {
+  animation: plaqueSwing1 6.0s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
+
+.item-2 .honors-swing {
+  animation: plaqueSwing2 7.2s cubic-bezier(0.445, 0.05, 0.55, 0.95) -2.3s infinite;
+}
+
+.item-3 .honors-swing {
+  animation: plaqueSwing3 5.6s cubic-bezier(0.445, 0.05, 0.55, 0.95) -3.8s infinite;
+}
+
+.item-4 .honors-swing {
+  animation: plaqueSwing4 6.8s cubic-bezier(0.445, 0.05, 0.55, 0.95) -1.5s infinite;
+}
+
+.item-5 .honors-swing {
+  animation: plaqueSwing5 7.6s cubic-bezier(0.445, 0.05, 0.55, 0.95) -4.2s infinite;
+}
+
+/* Pause swing when hovering or expanded for reading stability */
+.honors-item:hover .honors-swing,
+.honors-item:has([aria-expanded="true"]) .honors-swing {
+  animation-play-state: paused;
+}
+
+/* ==========================================================================
+   MOBILE & TABLET RESPONSIVE LAYOUT
+   ========================================================================== */
+
+@media (max-width: 960px) {
+  .honors-gallery {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 20px;
+  }
+  .honors-item.item-1,
+  .honors-item.item-2,
+  .honors-item.item-3,
+  .honors-item.item-4,
+  .honors-item.item-5 {
+    grid-column: auto;
+    margin: 0;
+  }
+  .honors-item.item-5 {
+    grid-column: 1 / -1;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .achievements {
+    padding: 100px var(--gutter, 4vw) 100px;
+  }
+
+  .honors-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    min-height: auto;
+  }
+
+  .honors-item {
+    width: 100%;
+    margin-top: 0 !important;
+  }
+
+  .honors-item.item-1 { margin-left: 0; }
+  .honors-item.item-2 { margin-left: 12px; width: calc(100% - 12px); }
+  .honors-item.item-3 { margin-left: 4px; width: calc(100% - 4px); }
+  .honors-item.item-4 { margin-left: 16px; width: calc(100% - 16px); }
+  .honors-item.item-5 { margin-left: 8px; width: calc(100% - 8px); }
+
+  .plaque-card {
+    max-width: 100%;
+    padding: 22px 20px 18px;
+  }
+
+  .plaque-rank {
+    font-size: clamp(34px, 8vw, 44px);
+  }
+
+  .plaque-event {
+    font-size: 15px;
+  }
+
+  .honors-cords {
+    height: 38px;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .item-1 .honors-swing,
+  .item-2 .honors-swing,
+  .item-3 .honors-swing,
+  .item-4 .honors-swing,
+  .item-5 .honors-swing {
+    animation: none;
+  }
+
+  .plaque-shimmer {
+    display: none;
+  }
+
+  .plaque-card {
+    transition: border-color 0.2s ease, opacity 0.2s ease;
+  }
+}

@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#090909" />
+    <meta
+      name="description"
+      content="Mohamed Kaif S A. Creative developer working across AI, full-stack development and experimental technology. Chennai, India."
+    />
+    <title>Mohamed Kaif — Creative Developer</title>
+    <link rel="icon" href="assets/favicon/kaif.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="assets/fonts/Breton.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="styles/index.css?v=red-03" />
+    <link rel="stylesheet" href="styles/hero.css?v=monument-01" />
+    <link rel="stylesheet" href="styles/environment.css?v=ink-01" />
+    <link rel="stylesheet" href="styles/selected-work.css?v=spatial-01" />
+    <link rel="stylesheet" href="styles/stack.css?v=fold-01" />
+    <link rel="stylesheet" href="styles/achievements.css?v=honors-01" />
+  </head>
+  <body>
+    <a class="skip-link" href="#work">Skip to work</a>
+    <div class="intro-film" aria-hidden="true">
+      <span class="intro-name">MOHAMED KAIF</span><i class="intro-line"></i>
+      <div class="intro-word"><span>MOHAMED KAIF</span></div>
+    </div>
+    <div class="atmosphere" aria-hidden="true"><i></i><i></i></div>
+    <div class="ink-environment" aria-hidden="true"><canvas class="ink-canvas"></canvas><div class="ink-readability"></div></div>
+    <button class="ambient-toggle" type="button" aria-label="Enable garden ambience" aria-pressed="false">Sound off</button>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor" aria-hidden="true"><span></span></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+    <header class="navigation">
+      <a class="wordmark" href="#home" aria-label="Kaif home"
+        >K<span>.</span></a
+      >
+      <nav aria-label="Primary navigation">
+        <a href="#work"><span>Work</span><span aria-hidden="true">Work</span></a
+        ><a href="#about"
+          ><span>About</span><span aria-hidden="true">About</span></a
+        ><a href="#contact"
+          ><span>Contact</span><span aria-hidden="true">Contact</span></a
+        >
+      </nav>
+      <button
+        class="menu-toggle"
+        aria-label="Open menu"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+    <dialog id="mobile-menu" class="mobile-menu" aria-label="Navigation">
+      <button class="menu-close" aria-label="Close menu">Close ×</button>
+      <nav>
+        <a href="#work">Work</a><a href="#about">About</a
+        ><a href="#contact">Contact</a>
+      </nav>
+      <span>MOHAMED KAIF S A</span>
+    </dialog>
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-name">
+        <div class="hero-stage">
+          <div class="hero-light" aria-hidden="true"><i></i></div>
+          <div class="hero-entrance">
+            <div class="hero-composition">
+              <h1 id="hero-name" class="hero-type hero-name">
+                <span class="hero-first">MOHAMED</span>
+                <span class="hero-last">KAIF</span>
+              </h1>
+            </div>
+          </div>
+          <div class="hero-bottom">
+            <div class="hero-meta">
+              <p>
+                <strong>Creative Developer</strong
+                ><span>AI / ML · Full Stack · Experimental Tech</span>
+              </p>
+              <span class="hero-place">Chennai, India</span>
+              <a href="#work" class="text-link">View my work <span>↓</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="selected-work" id="work" aria-labelledby="work-heading">
+        <header class="work-heading">
+          <span class="eyebrow">Selected work</span>
+          <h2 id="work-heading" class="work-heading-label" data-reveal>01 — 06</h2>
+        </header>
+        <div id="project-showcases"></div>
+        <div
+          class="project-archive"
+          id="archive"
+          role="region"
+          aria-labelledby="archive-heading"
+        >
+          <div class="archive-stage">
+            <div class="archive-glow" aria-hidden="true"></div>
+            <h2 id="archive-heading" class="archive-heading">
+              Project archive
+            </h2>
+            <div class="archive-scene">
+              <div class="archive-vault" aria-hidden="true">
+                <svg viewBox="0 0 440 300" fill="none">
+                  <path
+                    class="vault-back"
+                    d="M64 95 162 40 387 80 292 140Z M64 95V209L292 268V140 M292 268 387 201V80"
+                  />
+                  <path
+                    class="vault-ribs"
+                    d="m99 117 193 48 62-39 M99 146l193 48 62-39 M99 175l193 48 62-39"
+                  />
+                  <path
+                    class="vault-lid"
+                    d="m64 95 15-57 99-25 37 35 172 32-95 60Z"
+                  />
+                  <path
+                    class="vault-front"
+                    d="m64 132 85-24 44 23 99 25 95-57v102l-95 67-228-59Z"
+                  />
+                  <path
+                    class="vault-seam"
+                    d="m64 132 228 59 95-57 M292 191v77"
+                  />
+                </svg>
+              </div>
+              <div class="archive-items"></div>
+            </div>
+            <p class="archive-caption"></p>
+          </div>
+        </div>
+        <noscript
+          ><p>
+            Enable JavaScript to explore the interactive project case studies.
+          </p></noscript
+        >
+      </section>
+      <section class="stack" id="stack" aria-labelledby="stack-heading">
+        <div class="stack-veil" aria-hidden="true"></div>
+        <div class="stack-grain" aria-hidden="true"></div>
+        <div class="stack-inner">
+          <header class="stack-header">
+            <span class="stack-eyebrow eyebrow">03 / Stack</span>
+            <h2 id="stack-heading" class="stack-intro">What I build with</h2>
+          </header>
+          <div class="stack-manuscript" data-stack-mount></div>
+        </div>
+      </section>
+      <section class="about" id="about" aria-labelledby="about-heading">
+        <div class="about-backdrop" aria-hidden="true">KAIF</div>
+        <div class="about-picture">
+          <img
+            src="assets/images/kaif/portrait-info.png"
+            alt="Portrait of Mohamed Kaif"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">02 / About me</span>
+          <h2 id="about-heading" data-reveal>
+            IDEAS INTO<br /><em>REALITY.</em>
+          </h2>
+          <p class="about-statement" data-reveal>
+            I enjoy turning ideas into working products — especially around AI,
+            interactive experiences and experimental technology.
+          </p>
+          <div class="about-details">
+            <strong>Mohamed Kaif S A</strong>
+            <p>
+              B.E. Computer Science and Engineering<br />Loyola-ICAM College of
+              Engineering and Technology<br />Chennai · 2024–2028
+            </p>
+            <p>
+              Creative Developer · AI / ML Developer<br />Full-Stack Developer ·
+              Hackathon Builder
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="achievements" id="achievements" aria-labelledby="achievements-heading">
+        <div class="honors-backdrop" aria-hidden="true">HONORS</div>
+        <header class="honors-header">
+          <span class="eyebrow">04 / Achievements</span>
+          <h2 id="achievements-heading" class="honors-title">HALL OF HONORS</h2>
+        </header>
+
+        <div class="honors-rail" aria-hidden="true"></div>
+
+        <div class="honors-gallery">
+          <!-- Plaque 1: Robo Rumble 3.0 First Place -->
+          <article class="honors-item item-1">
+            <div class="honors-swing">
+              <div class="honors-cords" aria-hidden="true">
+                <span class="cord cord-left"></span>
+                <span class="cord cord-right"></span>
+              </div>
+              <button type="button" class="plaque-card plaque-primary" aria-expanded="false" aria-label="Robo Rumble 3.0 First Place achievement details">
+                <div class="plaque-shimmer" aria-hidden="true"></div>
+                <div class="plaque-holes" aria-hidden="true">
+                  <span class="hole left"></span>
+                  <span class="hole right"></span>
+                </div>
+                <div class="plaque-border" aria-hidden="true"></div>
+
+                <div class="plaque-front">
+                  <div class="plaque-head">
+                    <span class="plaque-sigil" aria-hidden="true">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <polygon points="12,2 15,9 22,12 15,15 12,22 9,15 2,12 9,9" stroke="#cf3535" stroke-width="1.5" fill="rgba(180,30,35,0.2)"/>
+                        <circle cx="12" cy="12" r="3" fill="#cf3535"/>
+                      </svg>
+                    </span>
+                    <span class="plaque-tag">CHAMPION</span>
+                  </div>
+                  <div class="plaque-rank">1ST</div>
+                  <h3 class="plaque-event">ROBO RUMBLE 3.0</h3>
+                  <div class="plaque-award">FIRST PLACE</div>
+                  <div class="plaque-hint" aria-hidden="true">
+                    <span>TAP FOR DETAILS</span>
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 2V10M2 6L6 10L10 6" stroke="currentColor" stroke-width="1.2"/></svg>
+                  </div>
+                </div>
+
+                <div class="plaque-detail" aria-hidden="true">
+                  <span class="detail-divider"></span>
+                  <div class="detail-grid">
+                    <div class="detail-field">
+                      <span class="detail-label">POSITION</span>
+                      <span class="detail-val">1st Place</span>
+                    </div>
+                    <div class="detail-field">
+                      <span class="detail-label">EVENT</span>
+                      <span class="detail-val">Robo Rumble 3.0</span>
+                    </div>
+                    <div class="detail-field">
+                      <span class="detail-label">CATEGORY</span>
+                      <span class="detail-val">Robotics & Autonomous Hardware</span>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </article>
+
+          <!-- Plaque 2: Technical Quiz Second Place -->
+          <article class="honors-item item-2">
+            <div class="honors-swing">
+              <div class="honors-cords" aria-hidden="true">
+                <span class="cord cord-left"></span>
+                <span class="cord cord-right"></span>
+              </div>
+              <button type="button" class="plaque-card" aria-expanded="false" aria-label="Technical Quiz Second Place achievement details">
+                <div class="plaque-shimmer" aria-hidden="true"></div>
+                <div class="plaque-holes" aria-hidden="true">
+                  <span class="hole left"></span>
+                  <span class="hole right"></span>
+                </div>
+                <div class="plaque-border" aria-hidden="true"></div>
+
+                <div class="plaque-front">
+                  <div class="plaque-head">
+                    <span class="plaque-sigil" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <rect x="5" y="5" width="14" height="14" rx="2" transform="rotate(45 12 12)" stroke="#b83838" stroke-width="1.5" fill="rgba(180,30,35,0.15)"/>
+                      </svg>
+                    </span>
+                    <span class="plaque-tag">RUNNER UP</span>
+                  </div>
+                  <div class="plaque-rank">2ND</div>
+                  <h3 class="plaque-event">TECHNICAL QUIZ</h3>
+                  <div class="plaque-award">SECOND PLACE · CHENNAI INSTITUTE OF TECHNOLOGY · 2025</div>
+                  <div class="plaque-hint" aria-hidden="true">
+                    <span>TAP FOR DETAILS</span>
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 2V10M2 6L6 10L10 6" stroke="currentColor" stroke-width="1.2"/></svg>
+                  </div>
+                </div>
+
+                <div class="plaque-detail" aria-hidden="true">
+                  <span class="detail-divider"></span>
+                  <div class="detail-grid">
+                    <div class="detail-field">
+                      <span class="detail-label">POSITION</span>
+                      <span class="detail-val">2nd Place</span>
+                    </div>
+                    <div class="detail-field">
+                      <span class="detail-label">INSTITUTION</span>
+                      <span class="detail-val">Chennai Institute of Technology</span>
+                    </div>
+                    <div class="detail-field">
+                      <span class="detail-label">YEAR</span>
+                      <span class="detail-val">2025</span>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </article>
+
+          <!-- Plaque 3: Technical Quiz Third Place -->
+          <article class="honors-item item-3">
+            <div class="honors-swing">
+              <div class="honors-cords" aria-hidden="true">
+                <span class="cord cord-left"></span>
+                <span class="cord cord-right"></span>
+              </div>
+              <button type="button" class="plaque-card" aria-expanded="false" aria-label="Technical Quiz Third Place achievement details">
+                <div class="plaque-shimmer" aria-hidden="true"></div>
+                <div class="plaque-holes" aria-hidden="true">
+                  <span class="hole left"></span>
+                  <span class="hole right"></span>
+                </div>
+                <div class="plaque-border" aria-hidden="true"></div>
+
+                <div class="plaque-front">
+                  <div class="plaque-head">
+                    <span class="plaque-sigil" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="7" stroke="#b83838" stroke-width="1.5" fill="rgba(180,30,35,0.12)"/>
+                        <circle cx="12" cy="12" r="2" fill="#b83838"/>
+                      </svg>
+                    </span>
+                    <span class="plaque-tag">PODIUM</span>
+                  </div>
+                  <div class="plaque-rank">3RD</div>
+                  <h3 class="plaque-event">TECHNICAL QUIZ</h3>
+                  <div class="plaque-award">THIRD PLACE · MEENAKSHI SUNDARARAJAN COLLEGE · 2025</div>
+                  <div class="plaque-hint" aria-hidden="true">
+                    <span>TAP FOR DETAILS</span>
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 2V10M2 6L6 10L10 6" stroke="currentColor" stroke-width="1.2"/></svg>
+                  </div>
+                </div>
+
+                <div class="plaque-detail" aria-hidden="true">
+                  <span class="detail-divider"></span>
+                  <div class="detail-grid">
+                    <div class="detail-field">
+                      <span class="detail-label">POSITION</span>
+                      <span class="detail-val">3rd Place</span>
+                    </div>
+                    <div class="detail-field">
+                      <span class="detail-label">INSTITUTION</span>
+                      <span class="detail-val">Meenakshi Sundararajan College</span>
+                    </div>
+                    <div class="detail-field">
+                      <span class="detail-label">YEAR</span>
+                      <span class="detail-val">2025</span>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </article>
+
+          <!-- Plaque 4: Science Quiz First Place -->
+          <article class="honors-item item-4">
+            <div class="honors-swing">
+              <div class="honors-cords" aria-hidden="true">
+                <span class="cord cord-left"></span>
+                <span class="cord cord-right"></span>
+              </div>
+              <button type="button" class="plaque-card" aria-expanded="false" aria-label="Science Quiz First Place achievement details">
+                <div class="plaque-shimmer" aria-hidden="true"></div>
+                <div class="plaque-holes" aria-hidden="true">
+                  <span class="hole left"></span>
+                  <span class="hole right"></span>
+                </div>
+                <div class="plaque-border" aria-hidden="true"></div>
+
+                <div class="plaque-front">
+                  <div class="plaque-head">
+                    <span class="plaque-sigil" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <polygon points="12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5" stroke="#cf3535" stroke-width="1.5" fill="rgba(180,30,35,0.15)"/>
+                        <circle cx="12" cy="12" r="3" fill="#cf3535"/>
+                      </svg>
+                    </span>
+                    <span class="plaque-tag">SCIENCE</span>
+                  </div>
+                  <div class="plaque-rank">1ST</div>
+                  <h3 class="plaque-event">SCIENCE QUIZ</h3>
+                  <div class="plaque-award">FIRST PLACE · LICET</div>
+                  <div class="plaque-hint" aria-hidden="true">
+                    <span>TAP FOR DETAILS</span>
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 2V10M2 6L6 10L10 6" stroke="currentColor" stroke-width="1.2"/></svg>
+                  </div>
+                </div>
+
+                <div class="plaque-detail" aria-hidden="true">
+                  <span class="detail-divider"></span>
+                  <div class="detail-grid">
+                    <div class="detail-field">
+                      <span class="detail-label">POSITION</span>
+                      <span class="detail-val">1st Place</span>
+                    </div>
+                    <div class="detail-field">
+                      <span class="detail-label">INSTITUTION</span>
+                      <span class="detail-val">LICET</span>
+                    </div>
+                    <div class="detail-field">
+                      <span class="detail-label">CATEGORY</span>
+                      <span class="detail-val">Science & Innovation</span>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </article>
+
+          <!-- Plaque 5: Code Quest Third Place -->
+          <article class="honors-item item-5">
+            <div class="honors-swing">
+              <div class="honors-cords" aria-hidden="true">
+                <span class="cord cord-left"></span>
+                <span class="cord cord-right"></span>
+              </div>
+              <button type="button" class="plaque-card" aria-expanded="false" aria-label="Code Quest Third Place achievement details">
+                <div class="plaque-shimmer" aria-hidden="true"></div>
+                <div class="plaque-holes" aria-hidden="true">
+                  <span class="hole left"></span>
+                  <span class="hole right"></span>
+                </div>
+                <div class="plaque-border" aria-hidden="true"></div>
+
+                <div class="plaque-front">
+                  <div class="plaque-head">
+                    <span class="plaque-sigil" aria-hidden="true">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M8 9L4 12L8 15M16 9L20 12L16 15M13 7L11 17" stroke="#b83838" stroke-width="1.5" stroke-linecap="round"/>
+                      </svg>
+                    </span>
+                    <span class="plaque-tag">CODE</span>
+                  </div>
+                  <div class="plaque-rank">3RD</div>
+                  <h3 class="plaque-event">CODE QUEST</h3>
+                  <div class="plaque-award">THIRD PLACE · D.G. VAISHNAV COLLEGE · 2025</div>
+                  <div class="plaque-hint" aria-hidden="true">
+                    <span>TAP FOR DETAILS</span>
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 2V10M2 6L6 10L10 6" stroke="currentColor" stroke-width="1.2"/></svg>
+                  </div>
+                </div>
+
+                <div class="plaque-detail" aria-hidden="true">
+                  <span class="detail-divider"></span>
+                  <div class="detail-grid">
+                    <div class="detail-field">
+                      <span class="detail-label">POSITION</span>
+                      <span class="detail-val">3rd Place</span>
+                    </div>
+                    <div class="detail-field">
+                      <span class="detail-label">INSTITUTION</span>
+                      <span class="detail-val">D.G. Vaishnav College</span>
+                    </div>
+                    <div class="detail-field">
+                      <span class="detail-label">YEAR</span>
+                      <span class="detail-val">2025</span>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="contact" id="contact" aria-labelledby="contact-heading">
+        <div class="contact-light" aria-hidden="true"></div>
+        <div class="contact-backdrop" aria-hidden="true">KAIF</div>
+        <span class="eyebrow">04 / Let's talk</span>
+        <h2 id="contact-heading" data-reveal>
+          LET’S MAKE<br />SOMETHING<br />WORTH<br /><em>REMEMBERING.</em>
+        </h2>
+        <a
+          class="contact-cta magnetic"
+          href="mailto:mohamedkaif.sa@gmail.com"
+          data-cursor="↗"
+          >Get in touch <span>↗</span></a
+        >
+        <div class="contact-links">
+          <a href="mailto:mohamedkaif.sa@gmail.com" data-cursor="↗">Email ↗</a
+          ><a
+            href="https://github.com/mohamed-kaif-1/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-cursor="↗"
+            >GitHub ↗</a
+          ><a
+            href="https://www.linkedin.com/in/mohamed-kaif-71a173328/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-cursor="↗"
+            >LinkedIn ↗</a
+          >
+        </div>
+        <footer><span>MOHAMED KAIF</span><span>2026</span></footer>
+      </section>
+    </main>
+    <dialog class="case-study" aria-labelledby="case-title" data-lenis-prevent>
+      <button class="case-close" aria-label="Close project">
+        Back to work <span>×</span>
+      </button>
+      <div class="case-content"></div>
+    </dialog>
+    <div class="page-transition" popover="manual" aria-hidden="true">
+      <div class="transition-image"></div>
+      <i></i><i></i><i></i>
+    </div>
+    <script src="js/vendor/gsap.min.js"></script>
+    <script src="js/vendor/ScrollTrigger.min.js"></script>
+    <script src="js/vendor/lenis.min.js"></script>
+    <script type="module" src="js/index.js?v=ink-01"></script>
+    <script type="module" src="js/environment.js?v=ink-01"></script>
+  </body>
+</html>

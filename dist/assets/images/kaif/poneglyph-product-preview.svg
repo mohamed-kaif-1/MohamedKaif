@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img"><title>Poneglyph — interface concept</title><desc>Image &amp; audio authenticity analysis.. Illustrative interface with sample data.</desc>
+<rect x="0" y="0" width="1200" height="900" rx="0" fill="#101724"/>
+<text x="48" y="82" fill="#f0f5ff" font-family="Arial, sans-serif" font-size="58" font-weight="700" text-anchor="start">Poneglyph</text>
+<text x="50" y="126" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start">Image &amp; audio authenticity analysis.</text>
+<text x="50" y="866" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start">INTERFACE CONCEPT  /  SAMPLE DATA</text>
+<text x="1148" y="866" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="16" font-weight="500" text-anchor="end">2026</text>
+<rect x="48" y="180" width="1104" height="632" rx="16" fill="#182234" stroke="#2a364a"/>
+<text x="78" y="221" fill="#f0f5ff" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="start">P / Media analysis</text>
+<text x="1118" y="220" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="end">Audio selected  /  Analysis 004</text>
+<path d="M48 246L1152 246" stroke="#2a364a" stroke-width="1" fill="none"/>
+<rect x="80" y="272" width="108" height="32" rx="16" fill="#52c9ef"/>
+<text x="134.0" y="294" fill="#101724" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle">Audio</text>
+<text x="218" y="294" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Image</text>
+<text x="80" y="352" fill="#f0f5ff" font-family="Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">interview_clip.wav</text>
+<text x="80" y="384" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">00:24  /  mono audio  /  analysis preview</text>
+<rect x="80" y="416" width="656" height="211" rx="10" fill="#111a2b"/>
+<path d="M96 514.5L96 527.5" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M103 479.3334281476493L103 562.6665718523508" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M110 457.9329711534738L110 584.0670288465262" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M117 457.6686860506354L117 584.3313139493646" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M124 476.32421722199996L124 565.675782778" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M131 503.6653701634376L131 538.3346298365624" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M138 502.1239908658999L138 539.8760091341001" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M145 491.9964249220399L145 550.00357507796" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M152 495.91231918779874L152 546.0876808122013" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M159 507.09140681985014L159 534.9085931801499" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M166 513.6181994895637L166 528.3818005104363" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M173 513.3182889769951L173 528.6817110230049" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M180 500.5709689856719L180 541.4290310143281" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M187 484.36276422688945L187 557.6372357731105" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M194 475.59486316921505L194 566.405136830785" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M201 482.7234926491117L201 559.2765073508883" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M208 506.6640768927443L208 535.3359231072557" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M215 489.49484216859065L215 552.5051578314094" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M222 461.15490392397606L222 580.845096076024" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M229 449.85443534728233L229 592.1455646527177" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M236 461.1073432974331L236 580.8926567025669" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M243 490.5879929859553L243 551.4120070140447" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M250 502.8774352673111L250 539.1225647326888" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M257 475.5075713696063L257 566.4924286303938" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M264 465.8879051925615L264 576.1120948074384" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M271 474.7792677006583L271 567.2207322993418" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M278 494.46223833848916L278 547.5377616615109" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M285 513.3082916597868L285 528.6917083402132" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M292 506.9060313933395L292 535.0939686066605" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M299 510.28491446810955L299 531.7150855318905" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M306 508.8543153649673L306 533.1456846350327" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M313 502.32822578398316L313 539.6717742160168" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M320 507.14280065623745L320 534.8571993437625" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M327 504.49245864013983L327 537.5075413598602" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M334 481.44515724660204L334 560.554842753398" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M341 464.45287626965677L341 577.5471237303433" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M348 464.03888685950596L348 577.961113140494" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M355 483.7235768413451L355 558.2764231586549" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M362 511.3912148856645L362 530.6087851143355" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M369 476.30158835958827L369 565.6984116404117" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M376 454.1256350631176L376 587.8743649368823" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M383 453.4550970066284L383 588.5449029933716" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M390 473.384146010543L390 568.615853989457" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M397 504.201607030235L397 537.798392969765" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M404 496.6534167231995L404 545.3465832768005" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M411 481.9430786357082L411 560.0569213642917" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M418 483.689743799637L418 558.310256200363" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M425 496.4072105609321L425 545.5927894390678" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M432 509.7651555493794L432 532.2348444506206" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M439 514.3680896908038L439 527.6319103091962" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M446 508.2236810816807L446 533.7763189183194" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M453 495.6020480737842L453 546.3979519262158" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M460 486.729261678807L460 555.270738321193" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M467 490.67325718786634L467 551.3267428121337" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M474 510.09505952836275L474 531.9049404716372" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M481 489.96423277024036L481 552.0357672297597" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M488 463.6966068172066L488 578.3033931827935" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M495 452.66200861622065L495 589.3379913837794" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M502 463.4237549641683L502 578.5762450358317" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M509 492.97792096440224L509 549.0220790355978" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M516 499.1317266548738L516 542.8682733451262" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M523 469.51711417718735L523 572.4828858228127" stroke="#ed8b9e" stroke-width="3" fill="none"/>
+<path d="M530 458.11709572721685L530 583.8829042727832" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M537 467.26688746291813L537 574.7331125370819" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M544 490.1071789827134L544 551.8928210172866" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M551 514.4676142709015L551 527.5323857290985" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M558 499.44978768757164L558 542.5502123124284" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M565 498.2787190211972L565 543.7212809788028" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M572 507.11255188870064L572 534.8874481112994" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M579 512.3879986924452L579 529.6120013075548" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M586 511.3544098616884L586 530.6455901383116" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M593 506.7895495685123L593 535.2104504314877" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M600 488.6198184562153L600 553.3801815437847" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M607 473.510170280211L607 568.489829719789" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M614 472.05487610350906L614 569.9451238964909" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M621 489.0594836465071L621 552.9405163534929" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M628 508.675781646064L628 533.324218353936" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M635 474.97531390325275L635 567.0246860967472" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M642 452.8904704185238L642 589.1095295814762" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M649 451.97143461239756L649 590.0285653876024" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M656 472.6197881760029L656 569.3802118239971" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M663 505.8922134559812L663 536.1077865440187" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M670 491.1443888221083L670 550.8556111778918" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M677 472.72825717883507L677 569.2717428211649" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M684 472.780233392534L684 569.219766607466" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M691 487.14889449265655L691 554.8511055073435" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M698 505.4988914924659L698 536.5011085075341" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M705 511.79289812579196L705 530.207101874208" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M712 511.90265552513074L712 530.0973444748693" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<path d="M719 507.98307320272914L719 534.0169267972709" stroke="#52c9ef" stroke-width="3" fill="none"/>
+<text x="98" y="603" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">00:00</text>
+<text x="670" y="603" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start">00:24</text>
+<path d="M458 431L458 585" stroke="#ffffff" stroke-width="2" fill="none"/>
+<text x="80" y="670" fill="#f0f5ff" font-family="Arial, sans-serif" font-size="20" font-weight="600" text-anchor="start">Evidence timeline</text>
+<rect x="80" y="694" width="656" height="57" rx="8" fill="#22314a"/>
+<text x="100" y="729" fill="#b5dcec" font-family="Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">00:12–00:16  /  Inspect synthesis artifacts</text>
+<rect x="764" y="272" width="352" height="478" rx="12" fill="#202e44"/>
+<text x="790" y="317" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">ANALYSIS SUMMARY</text>
+<text x="790" y="367" fill="#ffc6b9" font-family="Arial, sans-serif" font-size="27" font-weight="600" text-anchor="start">Review suggested</text>
+<text x="790" y="407" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Model probability</text>
+<text x="790" y="462" fill="#f0f5ff" font-family="Arial, sans-serif" font-size="56" font-weight="600" text-anchor="start">78%</text>
+<text x="790" y="492" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Synthetic audio estimate</text>
+<text x="790" y="545" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Spectral consistency</text>
+<rect x="790" y="558" width="292" height="6" rx="3" fill="#34445f"/>
+<rect x="790" y="558" width="207.32" height="6" rx="3" fill="#52c9ef"/>
+<text x="790" y="605" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Voice continuity</text>
+<rect x="790" y="618" width="292" height="6" rx="3" fill="#34445f"/>
+<rect x="790" y="618" width="128.48" height="6" rx="3" fill="#52c9ef"/>
+<text x="790" y="665" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Temporal artifacts</text>
+<rect x="790" y="678" width="292" height="6" rx="3" fill="#34445f"/>
+<rect x="790" y="678" width="245.28" height="6" rx="3" fill="#52c9ef"/>
+<text x="80" y="790" fill="#8b9ab0" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start">Model estimates support review; they are not a definitive verdict.</text>
+</svg>

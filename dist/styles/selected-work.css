@@ -1,0 +1,45 @@
+/* Scoped to the project journey; no hero, archive, or global theme changes. */
+.selected-work .project-gallery { position: relative; min-height: 720svh; margin: 0 calc(var(--gutter) * -1); background: transparent; overflow: visible; isolation: auto; }
+.selected-work .world-compat { display: none !important; }
+.project-world-canvas { position: fixed; inset: 0; display: block; width: 100%; height: 100%; opacity: 0; pointer-events: none; }
+.selected-work .world-ui { position: fixed; inset: 0; z-index: 5; overflow: hidden; opacity: var(--world-visibility, 0); pointer-events: none; }
+.selected-work .world-item { position: absolute; left: 0; top: 0; width: 360px; margin: 0; transform-origin: 0 0; will-change: transform, opacity; text-align: center; }
+.selected-work .world-item a { display: block; color: var(--paper); text-decoration: none; }
+.selected-work .world-item img { width: 100%; aspect-ratio: 1672 / 941; height: auto; display: block; object-fit: contain; opacity: 0; }
+.selected-work .world-caption { display: grid; justify-items: center; gap: 9px; padding: 18px 10px; text-shadow: 0 2px 16px #000, 0 1px 4px #000; }
+.selected-work .world-caption small { color: #ded7d0; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+.selected-work .world-caption strong { font-size: 30px; font-weight: 400; letter-spacing: -.035em; line-height: 1.05; text-transform: uppercase; }
+.selected-work .world-caption > span { font-size: 12px; color: #e4ded8; line-height: 1.45; }
+.selected-work .world-caption em { margin-top: 8px; padding-bottom: 5px; border-bottom: 1px solid #c9223280; font-size: 10px; font-style: normal; letter-spacing: .1em; text-transform: uppercase; }
+.selected-work .world-hud { position: absolute; top: 100px; left: var(--gutter); right: var(--gutter); display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--paper); text-shadow: 0 2px 8px #000; }
+.selected-work .world-hud i { display: inline-block; width: 23px; height: 1px; background: var(--red); margin: 0 15px 3px; }
+.selected-work .world-hud b { font-weight: 400; }
+.selected-work .world-waypoints { position: absolute; bottom: 72px; left: var(--gutter); display: flex; gap: 10px; pointer-events: auto; }
+.selected-work .world-waypoints button { padding: 10px 8px; min-width: 34px; min-height: 44px; background: #09090955; border: 0; border-bottom: 1px solid #ffffff45; color: #eee7df; font: 10px Arial,sans-serif; letter-spacing: .05em; }
+.selected-work .world-waypoints button[aria-current="true"] { border-color: var(--red); color: #fff; background: #15090acc; }
+.selected-work .world-skip { position: absolute; bottom: 86px; right: var(--gutter); pointer-events: auto; font-size: 11px; text-transform: uppercase; letter-spacing: .07em; text-shadow: 0 2px 8px #000; }
+.selected-work .world-progress { position: absolute; left: var(--gutter); right: var(--gutter); bottom: 60px; height: 1px; background: #ffffff25; }
+.selected-work .world-progress i { display: block; width: 100%; height: 100%; background: var(--red); transform: scaleX(0); transform-origin: left center; }
+.selected-work .world-item a:focus-visible { outline: 1px solid var(--paper); outline-offset: 8px; }
+.selected-work .world-waypoints button:focus-visible, .selected-work .world-skip:focus-visible { outline: 2px solid var(--red); outline-offset: 4px; }
+.selected-work .project-gallery[data-world="loading"] .world-ui { visibility: hidden; }
+/* Reduced-motion / unsupported WebGL: all six native links remain usable. */
+.selected-work .project-gallery[data-world="fallback"] { min-height: 0; padding: 20px var(--gutter) 100px; }
+.selected-work .project-gallery[data-world="fallback"] .world-ui { position: relative; opacity: 1; overflow: visible; pointer-events: auto; }
+.selected-work .project-gallery[data-world="fallback"] .world-items { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 60px 7vw; }
+.selected-work .project-gallery[data-world="fallback"] .world-item { position: relative; width: 100%; will-change: auto; }
+.selected-work .project-gallery[data-world="fallback"] .world-item img { opacity: 1; }
+.selected-work .project-gallery[data-world="fallback"] .world-hud,
+.selected-work .project-gallery[data-world="fallback"] .world-waypoints,
+.selected-work .project-gallery[data-world="fallback"] .world-progress,
+.selected-work .project-gallery[data-world="fallback"] .world-skip { display: none; }
+@media(max-width:700px) {
+  .selected-work .project-gallery { min-height: 660svh; }
+  .selected-work .world-hud { top: 86px; font-size: 9px; gap: 12px; }
+  .selected-work .world-hud i { width: 12px; margin-inline: 8px; }
+  .selected-work .world-waypoints { gap: 3px; }
+  .selected-work .world-waypoints button { min-width: 28px; padding-inline: 7px; }
+  .selected-work .world-skip { font-size: 10px; }
+  .selected-work .project-gallery[data-world="fallback"] .world-items { grid-template-columns: 1fr; gap: 48px; }
+}
+@media(prefers-reduced-motion:reduce) { .selected-work .world-item { will-change: auto; } }
